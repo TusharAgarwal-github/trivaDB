@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUIZ</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="highScoresDisplay()">
+  <div class="container text-center">
+    <div class="card bg-dark text-white mx-auto welcome">
+      <div class="card-body text-center">
+        <h1 class="card-text text-center">High Scores</h1>
+        <table class="table mx-auto mt-3 display-5 text-white">
+          <thead>
+            <th>Username</th>
+            <th>Score</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="userInfo">tushar</td>
+              <td id="highscore">passpass</td>
+            </tr>
+          </tbody>
+
+        </table>
+        <button class="btn btn-outline-light btn-block" id="returnHome">Home</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
